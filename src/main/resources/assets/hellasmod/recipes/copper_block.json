@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "RRR",
+        "RRR",
+        "RRR"
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "hellasmod:copper_ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "hellasmod:copper_block",
+        "count": 1
+    }
+}

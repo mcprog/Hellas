@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " R",
+        "S "
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "hellasmod:copper_blade"
+        },
+        
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "hellasmod:copper_sword",
+        "count": 1
+    }
+}

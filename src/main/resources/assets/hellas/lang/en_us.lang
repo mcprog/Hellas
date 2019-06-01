@@ -1,0 +1,22 @@
+item.salt.name=Salt
+item.copper_ingot.name=Copper Ingot
+item.copper_blade.name=Copper Blade
+item.copper_blade.tip=Crafting Ingredient
+item.copper_sword.name=Copper Sword
+item.copper_trowel.name=Copper Trowel
+item.copper_shovel.name=Copper Shovel
+item.copper_pickaxe.name=Copper Pickaxe
+item.copper_pickaxe_head.name=Copper Pickaxe Head
+item.copper_axe.name=Copper Axe
+item.copper_axe_head.name=Copper Axe Head
+
+tile.salt_block.name=Block of Salt
+tile.copper_block.name=Block of Copper
+tile.copper_ore.name=Copper Ore
+tile.salt_ore.name=Halite Ore
+tile.salt_ore.tip=Greek: hals
+tile.copper_slab.name=Copper Slab
+tile.molder.name=Molder
+tile.molder.tip=Creates tool molds
+tile.clay_slab.name=Clay Slab
+tile.clay_slab.tip=Use two in molder with any tool

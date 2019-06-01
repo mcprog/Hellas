@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "hellasmod:blocks/copper_block",
+        "side": "hellasmod:blocks/copper_slab_side"
+    }
+}

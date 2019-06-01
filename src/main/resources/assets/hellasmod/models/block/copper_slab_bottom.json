@@ -1,0 +1,8 @@
+{
+    "parent": "block/half_slab",
+    "textures": {
+        "bottom": "hellasmod:blocks/copper_block",
+        "top": "hellasmod:blocks/copper_block",
+        "side": "hellasmod:blocks/copper_slab_side"
+    }
+}

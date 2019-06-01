@@ -1,0 +1,18 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "hellasmod:salt_block"
+    }
+    
+    ],
+
+    "result": 
+    {
+        "item": "hellasmod:salt",
+        "count": 4
+    }
+}

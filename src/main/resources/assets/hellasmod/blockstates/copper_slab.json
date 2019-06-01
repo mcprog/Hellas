@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom,variant=default": { "model": "hellasmod:copper_slab_bottom" },
+        "half=top,variant=default": { "model": "hellasmod:copper_slab_top" }
+    }
+}

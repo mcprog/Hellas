@@ -1,0 +1,5 @@
+{
+    "variants": {
+    	"variant=default": { "model": "hellasmod:clay_slab_double" }
+    }
+}

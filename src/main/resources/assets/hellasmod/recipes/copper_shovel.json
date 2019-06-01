@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " R",
+        "S "
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "hellasmod:copper_trowel",
+            "data": 0
+        },
+        
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "hellasmod:copper_shovel",
+        "count": 1
+    }
+}
