@@ -28,10 +28,11 @@ public abstract class BlockSlabBase extends BlockSlab {
 	
 	public static final PropertyEnum<Variant> VARIANT = PropertyEnum.<Variant>create("variant", Variant.class);
 	
-	public BlockSlabBase(String name, Material material) {
+	public BlockSlabBase(String name, Material material, HarvestMaterial hMaterial) {
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
+		setHarvestLevel(hMaterial.getType(), hMaterial.getLevel());
 		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 		
 		IBlockState iblockstate = blockState.getBaseState();
@@ -120,8 +121,8 @@ public abstract class BlockSlabBase extends BlockSlab {
 
 	
 	public static class Double extends BlockSlabBase {
-		public Double(String name, Material material) {
-			super(name, material);
+		public Double(String name, Material material, HarvestMaterial hMaterial) {
+			super(name, material, hMaterial);
 		}
 		
 		@Override
@@ -133,8 +134,8 @@ public abstract class BlockSlabBase extends BlockSlab {
 	
 	public static class Half extends BlockSlabBase {
 
-		public Half(String name, Material material) {
-			super(name, material);
+		public Half(String name, Material material, HarvestMaterial hMaterial) {
+			super(name, material, hMaterial);
 		}
 		
 		@Override

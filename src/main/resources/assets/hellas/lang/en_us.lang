@@ -20,3 +20,4 @@ tile.molder.name=Molder
 tile.molder.tip=Creates tool molds
 tile.clay_slab.name=Clay Slab
 tile.clay_slab.tip=Use two in molder with any tool
+tile.kiln.name=Kiln

@@ -5,7 +5,7 @@ import net.minecraft.block.material.Material;
 public abstract class ClaySlab extends BlockSlabBase {
 
 	public ClaySlab(String name, Material material) {
-		super(name, material);
+		super(name, material, HarvestMaterial.CLAY);
 		setHardness(.6f);
 		setResistance(3);
 		setHarvestLevel("spade", HarvestLevel.WOOD.ordinal());

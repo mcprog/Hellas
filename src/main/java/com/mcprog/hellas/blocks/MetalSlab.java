@@ -6,10 +6,9 @@ import net.minecraft.block.material.Material;
 public abstract class MetalSlab extends BlockSlabBase {
 
 	public MetalSlab(String name, Material material) {
-		super(name, material);
+		super(name, material, HarvestMaterial.METAL);
 		setHardness(3);
 		setResistance(30);
-		setHarvestLevel(HarvestMaterial.METAL.getType(), HarvestMaterial.METAL.getLevel());
 		setSoundType(SoundType.METAL);
 	}
 
